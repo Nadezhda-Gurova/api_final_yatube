@@ -47,13 +47,14 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-###Примеры 
+### Примеры 
 
-Запрос
+#### Запрос
+
 ```http://127.0.0.1:8000/api/v1/posts/```
 
 
-Ответ
+#### Ответ
 ```
 [
 {
@@ -66,12 +67,12 @@ python3 manage.py runserver
 }
 ]
 ```
-Запрос
+#### Запрос
 
 ```http://127.0.0.1:8000/api/v1/groups/```
 
 
-Ответ
+#### Ответ
 ```
 [
   {
