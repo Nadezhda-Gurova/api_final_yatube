@@ -48,8 +48,11 @@ python3 manage.py runserver
 ```
 
 ###Примеры 
+
 ####Запрос
 ```http://127.0.0.1:8000/api/v1/posts/```
+
+
 ####Ответ
 ```
 [
@@ -64,7 +67,10 @@ python3 manage.py runserver
 ]
 ```
 ####Запрос
+
 ```http://127.0.0.1:8000/api/v1/groups/```
+
+
 ####Ответ
 ```
 [
